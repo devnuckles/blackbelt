@@ -1,0 +1,315 @@
+/* common css */
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a {
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr {
+    clear: both;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.title {
+    background: #05233A;
+    color: #f7f7f7;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif !important;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+.inner-title {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+.btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #05233A;
+    color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    transition: all linear.4s;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #f9f9f9;
+}
+
+/* header design  */
+header{
+    min-height: 115px;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #000;
+}
+header a {
+    color: Black;
+}
+.logo{
+    width: 40%;
+    float: left;
+    margin: 12px 0;
+}
+.logo img {
+    width: 300px;
+}
+.menu{
+    width: 60%;
+    float: left;
+    text-transform:capitalize;
+}
+.menu ul {
+    margin: 46px 0;
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+
+}
+.menu ul li a {
+    padding: 10px 10px;
+    transition: all linear .3s;
+}
+.menu ul li a:hover {
+    letter-spacing: 5px;
+    color: #05233A;
+}
+
+
+/* body design  */
+.left-body {
+    width: 25%;
+    float: left;
+    /* background: #089000; */
+    height: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
+.left-body .project .code-license {
+    margin-bottom: 10px;
+}
+.left-body .project .gnu-link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear .4s;
+}
+.left-body .project .gnu-link:hover{
+color: #05233A;
+letter-spacing: 5px;
+}
+.left-body .project ul {
+    margin: 0 0 25px 20px;
+}
+.left-body .project ul h3 {
+    margin: 25px 0 10px 0;
+}
+.left-body .project ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.left-body .project ul li a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all linear .3s;
+}
+.left-body .project ul li a:hover {
+    color: #05233A;
+}
+.left-body .products ul li {
+    margin: 10px 0;
+}
+.left-body .products ul li a{
+    color:#000;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all linear .4s;
+}
+.left-body .products ul li a:hover {
+    color: #05233A;
+    letter-spacing: 5px;
+}
+.left-body .site-safe {
+    padding-bottom: 40px;
+}
+.right-body {
+    width: 75%;
+    float: left;
+
+    height: 300px;
+    text-align: center;
+}
+.home-product {
+    width: 38%;
+    float: left;
+    padding: 50px 50px;
+    border-radius: 20px;
+    transform: scale(0.9);
+    -webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.32);
+    transition: all linear .4s;
+}
+.home-product:hover {
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+    -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.32);
+    transform: scale(0.8);
+    background: #05233A;
+    color: #f7f7f7;
+}
+.home-product:hover .btn {
+    background: #f7f7f7;
+    color: #000;
+
+}
+.product-title h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.product-title p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+.product-body ul li {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+    text-align: justify;
+    list-style: square;
+}
+
+
+
+
+/* Product page css */
+.product-details {
+    padding-bottom: 20px;
+}
+.product-details ul {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.5;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.product-details .basic-feature {
+    list-style: square !important;
+    font-weight: 600;
+}
+.product-details .youtube-video {
+    margin: 50px 0 0px 0;
+}
+.features {
+    margin: 50px 0 0 0;
+}
+.features h2 {
+    letter-spacing: 5px;
+}
+.features ul {
+    width: 360px;
+    float: left;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.features ul li {
+    list-style: disc;
+    margin: 20px 0;
+}
+.download {
+    margin: 20px 0 70px 0;
+}
+.download-btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #05233A;
+    color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    -webkit-box-shadow: 10px 10px 31px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 10px 31px 1px rgba(0,0,0,0.5);
+    box-shadow: 10px 10px 31px 1px rgba(0,0,0,0.5);
+    transition: all linear.4s;
+}
+
+.download-btn:hover {
+    -webkit-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.0);
+    -moz-box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.0);
+    box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.0);
+    transform: scale(2);
+}
+
+
+/* ad css  */
+.left-ad {
+    height: 370px;
+    width: 100%;
+    border-radius: 20px;
+    background:linear-gradient(145deg, #9d9d9d, #bababa);
+    -webkit-box-shadow: 26px 26px 67px #555555,
+             -26px -26px 67px #ffffff;;
+-moz-box-shadow: 26px 26px 67px #555555,
+             -26px -26px 67px #ffffff;;
+box-shadow: 26px 26px 67px #555555,
+             -26px -26px 67px #ffffff;;
+}
+
+.bottom-ad {
+    height: 150px;
+    width: 100%;
+    border-radius: 20px;
+    background:linear-gradient(145deg, #9d9d9d, #bababa) ;
+    -webkit-box-shadow: 26px 26px 67px #555555,
+             -26px -26px 67px #ffffff;;
+-moz-box-shadow: 26px 26px 67px #555555,
+             -26px -26px 67px #ffffff;;
+box-shadow: 26px 26px 67px #555555,
+             -26px -26px 67px #ffffff;;
+}
